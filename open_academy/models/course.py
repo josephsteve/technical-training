@@ -20,9 +20,9 @@ class Course(models.Model):
     _description = """
     Course Information
     """
-    # _rec_name = 'title'
-    # title = fields.Char()
-    name = fields.Char(string='Title', required=True)
+    _rec_name = 'title'
+    title = fields.Char(string='Title')
+    # name = fields.Char(string='Title', required=True)
     level = fields.Selection([
         ('easy', 'Easy'),
         ('normal', 'Normal'),
