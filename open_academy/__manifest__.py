@@ -3,7 +3,7 @@
     'name': "Open Academy",
 
     'summary': """
-        My very first module created for Odoo""",
+        My very first module created for Odoo changed @ 1:54PM""",
 
     'description': """
         Long description of module's purpose
