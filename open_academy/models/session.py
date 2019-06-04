@@ -5,9 +5,7 @@ from odoo import models, fields, api
 
 class Sessions(models.Model):
     _name = 'open_academy.sessions'
-    _description = """
-    Sessions Information
-    """
+    _description = 'Session Information'
 
     date_start = fields.Date(string='Start Date')
     date_end = fields.Date(string='End Date')
